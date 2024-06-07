@@ -1,0 +1,36 @@
+.conversationbox {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.userBox {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.userContent {
+    background: #f3f3f3;
+    padding: 8px;
+    border-radius: 12px;
+    color: #444444;
+}
+
+.assistantBox {
+    display: flex;
+}
+
+.img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.conversationContent {
+    overflow: scroll;
+}
+
+.downloadButton {
+    margin-top: 12px;
+}
